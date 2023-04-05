@@ -18,6 +18,7 @@ public class DemoArrayList {
 		ArrayList al1=new ArrayList<>();
 		al1.add("RIYA");
 		al1.add("DIYA");
+		all.add("Ani");
 		System.out.println("al1=" + al1);
 		al.addAll(al1);// add all element from one array to another array
 		al.addAll(4, al1);
